@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+
+.first
+{
+
+    background-image: url("/IMAGES/home1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.outer
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #81B622;
+    height: 100px;
+    
+
+}
+.nav
+{
+    height: 70px;
+    
+    
+    
+}
+.item
+{
+ margin: 50px 50px;   
+}
+
+
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #81B622;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.logoimg {
+  background-image: url();
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=signin.css.map */
+
+
+
+

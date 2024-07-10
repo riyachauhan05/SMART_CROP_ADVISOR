@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="signin.css">
+    <title>AgriGainz</title>
+</head>
+<body>
+
+
+    <div class="first">
+
+        <div class="outer">
+            <div class="nav">
+                <div class="item"><A href="home.html">HOME</a></div>
+                    <div class="item"><A href="https://sejal-27.github.io/sky-sight/">WEATHER REPORT</a></div>
+                    <div class="item"><a href="/predictor/templates/pred.html">PREDICTOR</a></div>
+                    <div class="item"><a href="https://agmarknet.gov.in/">MARKETPLACE</a></div>
+                    <div class = item><a href="contactus.html">CONTACT US</a></div>
+    
+            </div>
+    
+            <div class='item searchbox'>
+             <input type="text" placeholder="Serarch">
+            </div>
+        
+        </div>
+       
+        <div class="login_signup container">
+        <h2>Login/Signup</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+
+        <form id="signup-form" style="display: none;">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Signup</button>
+        </form>
+
+        <p id="toggle-form">Not a member? <a href="#">Signup</a></p>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="signin.js"></script>
+    <script>
+        window.embeddedChatbotConfig = {
+        chatbotId: "WsWcS1Hreob6gDei2HQe9",
+        domain: "www.chatbase.co"
+        }
+        </script>
+        <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="WsWcS1Hreob6gDei2HQe9"
+        domain="www.chatbase.co"
+        defer>
+        </script>
+</html>

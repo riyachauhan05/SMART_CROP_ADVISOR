@@ -1,0 +1,46 @@
+
+
+.outer
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #72fd00;
+    height: 100px;
+    
+
+}
+.nav
+{
+    height: 70px;
+    
+    
+    
+}
+.item
+{
+ margin: 50px 50px;   
+}
+.item
+{
+    font-family: Rubik Maps;
+    font-size: 20px;
+
+}
+footer
+{
+  background-color: rgb(85, 85, 85);
+  height: 300px;
+}
+.containerfooter
+{
+  display: flex;
+  justify-content: space-around;
+}
+.itemfooter{
+  text-align: center;
+  color: white;
+}
+.copyright
+{
+  text-align: center;
+}
